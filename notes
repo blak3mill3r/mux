@@ -1,0 +1,1 @@
+fluidsynth -r 44100 -a jack /home/blake/torrents/SoundFonts/Strings\ Orch..sf2 

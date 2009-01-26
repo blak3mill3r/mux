@@ -1,0 +1,6 @@
+import os
+
+env = Environment(ENV = os.environ)
+
+env.Program(target = 'mux', source = ["mux.cpp"], LIBS=['jack', 'fann'])
+env.Program(target = 'mux_test', source = ["mux_test.cpp"], LIBS=['jack', 'fann'])
